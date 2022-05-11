@@ -1,1 +1,5 @@
-
+.bubble {
+   z-index : 999;
+   position : absolute;
+   border-radius : 50%;
+}
