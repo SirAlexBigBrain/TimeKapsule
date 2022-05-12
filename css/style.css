@@ -13,3 +13,16 @@ body {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
   visibility: visible;
+     }
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: button;
+  animation-duration: 4s;
+   border-radius: 50%;
+}
+@keyframes button {
+  from {background-color: firebrick;}
+  to {background-color: crimson;}
+}
