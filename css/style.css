@@ -3,3 +3,8 @@
    position : absolute;
    border-radius : 50%;
 }
+body {
+  background: rgb(30,0,0);
+  background: linear-gradient(45deg, rgba(30,0,0,1) 0%, rgba(130,0,0,1) 50%, rgba(230,0,0,1) 100%);
+  font-family: monospace;
+}
