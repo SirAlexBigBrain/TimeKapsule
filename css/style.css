@@ -8,3 +8,8 @@ body {
   background: linear-gradient(45deg, rgba(30,0,0,1) 0%, rgba(130,0,0,1) 50%, rgba(230,0,0,1) 100%);
   font-family: monospace;
 }
+  @keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
